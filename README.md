@@ -1,5 +1,6 @@
 # Mediator Pattern
 
-O mediator pattern È respons·vel por distanciar o acoplamento entre dois objetos que se relacionam por meio de um fluxo de comunicaÁ„o centralizado, de modo independente, em que um objeto n„o conhece o outro, auxiliando no processo de flexibilizaÁ„o e manutenÁ„o das partes do sistema. 
+O mediator pattern √© respons√°vel por distanciar o acoplamento entre dois objetos que se relacionam por meio de um fluxo de comunica√ß√£o centralizado, de modo independente, em que um objeto n√£o conhece o outro, auxiliando no processo de flexibiliza√ß√£o e manuten√ß√£o das partes do sistema. 
 
-A grande dificuldade imposta por esse pattern È o aumento da complexidade e o aumento de gargalos.
+A grande dificuldade imposta por esse pattern √© o aumento da complexidade e o aumento de gargalos provocados pela centraliza√ß√£o das notifica√ß√µes.
+![](imagem.jfif)

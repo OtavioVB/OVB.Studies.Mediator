@@ -11,6 +11,7 @@ namespace OVB.Studies.Mediator.LifeCycle.WebApi.Sample.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromServices] NotifiableContainerBase notifiableContainerMediator)
         {
+            // Esse código não possui tanta efetividade, apenas tornou a relação mais complexa
             notifiableContainerMediator.Subscribe<Subject, Subscriber2>();
             await notifiableContainerMediator.PublishAsync(new Subject(), typeof(Subject));
             return await Task.FromResult(StatusCode(500));
